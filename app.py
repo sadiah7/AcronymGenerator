@@ -11,11 +11,10 @@ def index():
 @app.route("/", methods=['POST'])
 def getvalue():
     name = request.form['username']
-    nam = name
+    for j in search(name, num_results=1):
+        link = j
     name = name.split()
     res = ''
     for word in name:
         res += word[0].upper()
-    for j in search(nam, num_results=1):
-        j = j
-    return render_template('pass.html', name=res, link = j)
+    return render_template('pass.html', name=res, link = link)
