@@ -3,9 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>pass</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+      body{
+        background: white;
+        font-family: 'Raleway', 'serif';
+      }
+
+      .container{
+        text-align: left;
+        background: white;
+        border-radius: 20px;
+        width: 400px;
+        height: 250px;
+        margin: 100px auto;
+        text-align: center;
+      }
+
+      .h1,p{
+        font-size: 30px;
+        padding-top: 20px;
+      }      
+      }
+    </style>
   </head>
   <body>
+    <div class="container">
     <h1>Acronym is {{name}}</h1>
     <p>The related link is <a href="{{ link }}">{{ link }}</a></p>
+    </div>
   </body>
 </html>
