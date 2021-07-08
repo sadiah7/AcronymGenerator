@@ -6,12 +6,10 @@ body{
 }
 
 .container{
-  text-align: left;
   background: white;
   border-radius: 20px;
   width: 400px;
   height: 250px;
   margin: 100px auto;
   text-align: center;
-}  
 }
