@@ -6,7 +6,6 @@ font-family: 'Raleway', 'serif';
 }
 
 .container{
-text-align: left;
 background: white;
 border-radius: 20px;
 width: 400px;
@@ -85,6 +84,4 @@ button{
   height: 50px;
   border-radius: 25px;
 }
-}
-
 }
